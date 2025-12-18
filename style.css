@@ -1,0 +1,30 @@
+/* Calculator container */
+.calculator {
+    width: 320px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+/* Display screen */
+#display {
+    height: 60px;
+    font-size: 24px;
+}
+
+/* Button grid layout */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Make zero button wider */
+.zero {
+    grid-column: span 2;
+}
+
+/* Button styling */
+button {
+    font-size: 18px;
+    height: 50px;
+}
